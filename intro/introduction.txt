@@ -24,6 +24,7 @@ Boolean: true or false
 Array: A list of values in square brackets []
 Object: A collection of key-value pairs enclosed in curly braces {}
 Null: Represents an empty value
+Data should be separated by commas
 
 3.Arrays: JSON allows you to group multiple values in an array.
 
@@ -90,5 +91,3 @@ Example:
         }
     }
 }
-
-
