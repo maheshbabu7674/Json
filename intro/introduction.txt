@@ -1,6 +1,6 @@
 JSON (JavaScript Object Notation) is a lightweight data interchange format that's easy for humans to read and write, and easy for machines to parse and generate. It is often used to transmit data between a server and a client, especially in web applications, or for storing configuration settings and data structures.
 a). Json is syntax for storing and exchange data.
-b). Basically designed for uman-readable data interchange.
+b). Basically designed for human-readable data interchange.
 c). Json is text, written with java script object notation.
 
 Key Features of JSON:
