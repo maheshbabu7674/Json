@@ -1,0 +1,94 @@
+JSON (JavaScript Object Notation) is a lightweight data interchange format that's easy for humans to read and write, and easy for machines to parse and generate. It is often used to transmit data between a server and a client, especially in web applications, or for storing configuration settings and data structures.
+a). Json is syntax for storing and exchange data.
+b). Basically designed for uman-readable data interchange.
+c). Json is text, written with java script object notation.
+
+Key Features of JSON:
+
+1.Key-Value Pairs: JSON represents data in key-value pairs, where keys are strings and values can be strings, numbers, booleans, arrays, objects, or null.
+
+Example:
+
+{
+    "name": "John",
+    "age": 30,
+    "isStudent": false
+}
+
+
+2.Data Types: JSON supports several data types:
+
+String: "Hello World"
+Number: 25
+Boolean: true or false
+Array: A list of values in square brackets []
+Object: A collection of key-value pairs enclosed in curly braces {}
+Null: Represents an empty value
+
+3.Arrays: JSON allows you to group multiple values in an array.
+
+Example:
+
+{
+    "names": ["John", "Jane", "Doe"]
+}
+
+Nested Arrays:
+
+{
+  "department": "IT",
+  "employees": [
+    {
+      "name": "Alice",
+      "id": 1,
+      "skills": ["JavaScript", "React", "Node.js"]
+    },
+    {
+      "name": "Bob",
+      "id": 2,
+      "skills": ["Python", "Django", "Flask"]
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "Website Redesign",
+      "team": [
+        {
+          "memberName": "Alice",
+          "role": "Lead Developer"
+        },
+        {
+          "memberName": "Bob",
+          "role": "Backend Developer"
+        }
+      ]
+    },
+    {
+      "projectName": "API Development",
+      "team": [
+        {
+          "memberName": "Bob",
+          "role": "Lead Developer"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+4. Nested Objects: JSON objects can be nested, meaning an object can contain another object or an array.
+
+Example:
+
+{
+    "person": {
+        "name": "John",
+        "address": {
+            "city": "New York",
+            "zip": "10001"
+        }
+    }
+}
+
+
